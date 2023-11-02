@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Calculator</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Calculator</h1>
+      <div class="wrapp">
+        <input class="result" type="text" value="0" readonly />
+        <div class="row">
+          <button onclick="percentage()" class="percent">%</button>
+          <button onclick="clearResult()" class="clear-entry">CE</button>
+          <button onclick="clearResult()" class="clear">C</button>
+          <button onclick="deleteNumber()" class="del">Del</button>
+        </div>
+        <div class="row">
+          <button onclick="reciprocalNumber()" class="reciprocalNumber">
+            1/x
+          </button>
+          <button onclick="squareNumber()" class="squaredNumber">x&sup2</button>
+          <button onclick="squareRootNumber()" class="squareRootNumber">
+            &sup2√X
+          </button>
+          <button onclick="append('/')" class="divide">/</button>
+        </div>
+        <div class="row">
+          <button onclick="append('7')" class="number-7">7</button>
+          <button onclick="append('8')" class="number-8">8</button>
+          <button onclick="append('9')" class="number-9">9</button>
+          <button onclick="append('*')" class="multiplication">*</button>
+        </div>
+        <div class="row">
+          <button onclick="append('4')" class="number-4">4</button>
+          <button onclick="append('5')" class="number-5">5</button>
+          <button onclick="append('6')" class="number-6">6</button>
+          <button onclick="append('-')" class="subtraction">-</button>
+        </div>
+        <div class="row">
+          <button onclick="append('1')" class="number-1">1</button>
+          <button onclick="append('2')" class="number-2">2</button>
+          <button onclick="append('3')" class="number-3">3</button>
+          <button onclick="append('+')" class="addition">+</button>
+        </div>
+        <div class="row">
+          <button class="negativeNumber">+/-</button>
+          <button onclick="append('0')" class="number-0">0</button>
+          <button class="decimalPoint">.</button>
+          <button onclick="calculateResult()" class="equals">=</button>
+        </div>
+      </div>
+    </div>
+
+    <script src="main.js">
+    </script>
+  </body>
+</html>

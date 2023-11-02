@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.wrapp{
+width: 213px;
+}
+
+.container{
+    background-color: blue;
+    width: 213px;
+    height: 335px;
+    margin: 100px auto;
+}
+button{
+    width: 50px;
+    padding: 10px;
+}
+.result{
+    text-align: right;
+    font-size: 3em;
+    margin-bottom: 10px;
+    background-color: aqua;
+    width: 213px;
+}
+h1{
+    width: 213px;
+    color: white;
+}
